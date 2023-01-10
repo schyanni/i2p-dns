@@ -34,7 +34,7 @@ public class Program
             {
                 string GetType = "get";
                 string url = "http://localhost:8080/";
-                string requestBody = "xxx";
+                string requestBody = "{seq:number;//Protoype,setto1command:string;//\"decision\"ns:string;//\"I2PDNS:[domain-name]\"h:number;//currentBlockchainHeight+25d:string;//Format:\"domain-name=b32-string\"}";
                 string PutType = "put";
                 Console.WriteLine("Please select the Request type");
                 Console.WriteLine("GET /[a-z0-9-_]{3-64}.i2p$");
